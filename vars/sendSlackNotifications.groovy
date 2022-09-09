@@ -1,4 +1,4 @@
-/*def call(String buildStatus = 'STARTED') {
+def call(String buildStatus = 'STARTED') {
   // build status of null means successful
   //This is the condition which we are checking weather buildStatus is SUCCESSFULL or not.
  //This line updated to show the Eclipse with GitHub demo
@@ -25,7 +25,8 @@
   // Calling the slackSend function to Send notifications.
   slackSend (color: colorCode, message: summary)
 }
-*/
+
+/*
 //Code Snippet For sending slack-notifications
 def slacknotifications(String buildStatus = 'STARTED') {
   // build status of null means successful
@@ -51,4 +52,4 @@ def slacknotifications(String buildStatus = 'STARTED') {
 
   // Send notifications
   slackSend (color: colorCode, message: summary)
-}
+}*/
